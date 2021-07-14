@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 html {
@@ -12,16 +13,8 @@ html {
     font-family: 'Arial', sans-serif;
     font-size: 20px;
     font-weight: 300;
-    text-rendering: optimizeLegibility;
 }
-.clearfix {zoom:1}
-.clearfix {
-    content: '.';
-    clear: both;
-    display: block;
-    height: 0;
-    visibility: hidden;
-}
+
 .row{
     max-width: 1140px;
     margin: 0 auto;
